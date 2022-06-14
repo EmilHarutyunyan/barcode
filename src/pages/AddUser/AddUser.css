@@ -1,0 +1,119 @@
+.AddUser{
+    /* width: 100%; */
+    margin-left: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form_Adduser {
+    width: fit-content;
+    display: block;
+    margin: 150px auto 0 auto;
+}
+.file_input {
+    display: none;
+}
+.title_adduser {
+    width: 100%;
+    text-align: center;
+}
+.img_upload{
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin: 10px auto;
+    border: 1px dashed #4f4f4f;
+    border-radius: 6px;
+    cursor: pointer;
+    position: relative;
+}
+.img_upload p {
+    margin: 40px auto;
+}
+.img_success {
+    border: none !important;
+}
+.img_upload .image_result {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    border-radius: 6px;
+}
+.input__block_user {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 41px;
+}
+
+.input__block_user label {
+    font-family: Nunito, 'sans-serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #4F4F4F;
+    margin-bottom: 10px;
+}
+.input__block_user input {
+    border: 1px solid #B2D3DA;
+    border-radius: 4px;
+    width: 400px;
+    box-sizing: border-box;
+    padding: 8px  16px;
+    outline: none;
+}
+button {
+    width: 100%;
+    background: #1478CE;
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    box-sizing: border-box;
+    padding: 8px 0;
+}
+button:hover {
+    background: #2f54eb;
+}
+@media only screen and (max-width:600px) {
+    .AddUser{
+        margin-left: 0;
+        display: block;
+    }
+
+}
+@media only screen and (max-width:450px) {
+    .AddUser{
+        margin-left: 0;
+        display: block;
+    }
+    .input__block_user {
+        max-width: 320px;
+    }
+    .input__block_user input{
+        width: 320px;
+    }
+
+
+}
+@media only screen and (max-width:375px) {
+    .AddUser{
+        margin-left: 0;
+        display: block;
+    }
+    .input__block_user {
+        max-width: 290px;
+    }
+    .input__block_user input{
+        width: 290px;
+    }
+
+
+}

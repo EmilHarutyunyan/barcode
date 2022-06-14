@@ -1,0 +1,208 @@
+.wrapper{
+    max-width: 100%;
+    box-sizing: border-box !important;
+    padding: 50px 122px;
+}
+.wrapper h2 {
+    font-family: Montserrat, 'sans-serif';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #003642;
+    margin-top:20px;
+}
+.add-form {
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.input__block{
+    display: flex;
+    flex-direction: column;
+    max-width: 466px;
+    width: 100%;
+    margin-bottom: 41px;
+}
+.input__block label {
+    font-family: Nunito, 'sans-serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #4F4F4F;
+    margin-bottom: 10px;
+}
+.input__block input {
+    border: 1px solid #B2D3DA;
+    border-radius: 10px;
+    width: 466px;
+    box-sizing: border-box;
+    padding: 16px;
+    outline: none;
+}
+.input__block input[type=date] {
+    padding: 13px !important;
+}
+
+.add__actions{
+    max-width: 1000px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add__actions button {
+    max-width: 466px;
+    width: 100%;
+    margin-bottom: 20px;
+    cursor: pointer;
+    outline: none;
+    box-sizing: border-box;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Nunito, 'sans-serif';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+}
+.add__manually {
+    border: 1px solid #B2D3DA;
+    border-radius: 10px;
+
+    color: #000000;
+}
+.add__barcode{
+    background: #B2D3DA;
+    border: 1px solid #B2D3DA;
+    border-radius: 10px;
+}
+
+.submit{
+    max-width: 1000px;
+    width: 100%;
+}
+.add {
+    box-sizing: border-box;
+    max-width: 345px;
+    width: 100%;
+    padding: 14px;
+    background: #1478CE;
+    border-radius: 6px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 34px;
+    letter-spacing: 2.5px;
+    color: #FFFFFF;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    display: block;
+    margin: 10px auto;
+}
+
+.error{
+    color: red !important;
+}
+.icon__trash{
+    width: 15px;
+    height: 15px;
+}
+
+
+@media only screen and (max-width:1440px) {
+    .add-form {
+        max-width: 934px;
+    }
+    .input__block{
+        max-width: 386px;
+    }
+    .input__block input {
+        width: 386px;
+    }
+    .add__actions {
+        max-width: 934px;
+    }
+    .add__actions button {
+        max-width: 386px;
+    }
+
+}
+@media only screen and (max-width:1200px) {
+    .wrapper {
+        padding: 50px 80px;
+    }
+    .wrapper h2 {
+        text-align: center;
+    }
+    .add-form {
+        justify-content: center;
+    }
+    .add__actions {
+        justify-content: center;
+    }
+
+    .add-form {
+        max-width: 900px;
+    }
+    .input__block{
+        max-width: 370px;
+    }
+    .input__block input {
+        width: 370px;
+    }
+    .add__actions {
+        max-width: 900px;
+    }
+    .add__actions button {
+        max-width: 370px;
+    }
+
+}
+@media only screen and (max-width: 450px) {
+
+    .wrapper {
+        padding: 50px 20px;
+    }
+    .add-form {
+        max-width: none;
+    }
+    .wrapper {
+        padding: 50px 15px;
+    }
+    .ant-menu-root {
+        height: auto;
+    }
+    .input__block{
+        max-width: 320px;
+    }
+    .input__block input {
+        width: 320px;
+    }
+    .add__actions {
+        max-width: none;
+    }
+    .add__actions button {
+        max-width: 320px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .input__block{
+        max-width: 300px;
+    }
+    .input__block input {
+        width: 300px;
+    }
+
+    .add__actions button {
+        max-width: 300px;
+    }
+}

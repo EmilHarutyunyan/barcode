@@ -1,0 +1,20 @@
+.connect{
+    /* width: 100%; */
+    height: 100vh;
+    margin-left: 240px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0 15px;
+}
+@media only screen and (max-width: 1200px) {
+    .scanner__area {
+        margin: 30px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .connect{
+        margin-left: 0px;
+    }
+}

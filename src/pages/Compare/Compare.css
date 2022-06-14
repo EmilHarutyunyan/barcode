@@ -1,0 +1,28 @@
+.compare{
+    /* width: 100%; */
+    margin-left: 240px;
+
+}
+.scanner_block{
+    width: 100%;
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.message {
+    width: 100%;
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 50px;
+    color: #1890ff;;
+}
+@media only screen and (max-width: 600px) {
+    .compare{
+        margin-left: 0px;
+    }
+    .scanner_block{
+        margin-top: 50px;
+    }
+}

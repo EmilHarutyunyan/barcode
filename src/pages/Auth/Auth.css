@@ -1,0 +1,30 @@
+.block {
+    max-width: 400px;
+    width: 100%;
+    border: 1px solid #1478CE;
+    border-radius: 10px;
+    box-sizing: border-box;
+    padding: 30px;
+    margin: 200px auto;
+}
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.block h2 {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #003642;
+    margin: 20px auto;
+    display: block;
+    width: fit-content;
+}
+.ant-form-item {
+    display: flex;
+    justify-content: center;
+}

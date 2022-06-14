@@ -1,0 +1,214 @@
+.ant-table-thead tr th{
+    background: #BFE1E8 !important;
+}
+.components-table-demo-nested{
+    max-width: 1300px;
+    width: 100%;
+    margin-top: 20px;
+}
+.components-table-demo-nested td {
+    color: #003642;
+    border-right: 1px solid #003642;
+}
+.section__all__product{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+.ant-table-row-expand-icon-cell {
+    border: none !important;
+}
+.ant-table-cell {
+    text-align: center;
+    border: none;
+}
+.sub__table .ant-table-thead tr th {
+    background: #BFE8E8 !important;
+    text-align: center;
+}
+.sub__table  tr  {
+    background: #D1D1D1 !important;
+}
+.sub__table .ant-table-cell {
+    padding: 6px !important;
+}
+.sub__table  tr:hover {
+    background: #BFE1E8 !important;
+}
+.sub__table  tr td {
+    border: 1px solid #ffffff;
+    color: #003642;
+    height: 20px !important;
+}
+.child_title {
+    padding: 0;
+    margin: 0;
+}
+.ant-table-expanded-row-level-1{
+    background: #777777 !important;
+}
+
+.all-search {
+    width:100%;
+    text-align: center;
+}
+.all-search input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.all-search input[type=number] {
+  -moz-appearance: textfield;
+  
+}
+  .form-field {
+    display: block;
+    width: 100%;
+    padding: 8px 16px;
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    font-family: inherit;
+    border-radius: 6px;
+    -webkit-appearance: none;
+    color: #99A3BA;
+    border: 1px solid #CDD9ED;
+    background: #fff;
+    transition: border 0.3s ease;
+}
+.form-field::placeholder {
+    color: #CBD1DC;
+}
+.form-field:focus {
+    outline: none;
+    border-color: #1890ff;
+
+}
+.form-group {
+    position: relative;
+    display: flex;
+    width: 100%;
+    max-width: 320px;
+    margin: 0 auto;
+}
+.form-group > .search-btn, .form-group .form-field {
+    white-space: nowrap;
+    display: block;
+}
+.form-group > .search-btn:not(:first-child):not(:last-child), .form-group .form-field:not(:first-child):not(:last-child) {
+    border-radius: 0;
+}
+.form-group > .search-btn:first-child, .form-group .form-field:first-child {
+    border-radius: 6px 0 0 6px;
+}
+.form-group > .search-btn:last-child, .form-group .form-field:last-child {
+    border-radius: 0 6px 6px 0;
+}
+.form-group > .search-btn:not(:first-child), .form-group .form-field:not(:first-child) {
+    margin-left: -1px;
+}
+.form-group .form-field {
+    position: relative;
+    z-index: 1;
+    flex: 1 1 auto;
+    width: 1%;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.form-group > .search-btn {
+    text-align: center;
+    padding: 8px 12px;
+    font-size: 14px;
+    line-height: 25px;
+    color: #99A3BA;
+    background: #EEF4FF;
+    border: 1px solid #CDD9ED;
+    transition: background 0.3s ease, border 0.3s ease, color 0.3s ease;
+    cursor: pointer;
+}
+.form-group:focus-within > .search-btn {
+    color: #fff;
+    background: #1890ff;
+    border-color:#1890ff;
+}
+
+/* Pagination */
+.btn {
+    padding: 0.35rem 0.75rem;
+    letter-spacing: 1.6px;
+    font-size: 0.75rem;
+    color: #fff;
+    background: #49a6e9;
+    border-radius: 8px;
+    border-color: transparent;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+    cursor: pointer;
+  }
+.btn-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 15px;
+  }
+  .page-btn {
+    width: 27px;
+    height: 27px;
+    background: #8bcbf9;
+    border-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s linear;
+    color: #102a42;
+    padding: 0;
+    margin-left: 10px;
+    font-size: 16px;
+  }
+  .page-btn.active-btn {
+    background: #063251;
+    color: #fff;
+  }
+  .prev-btn,
+  .next-btn {
+    width: auto;
+    background: transparent;
+    border-color: transparent;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin: 10px;
+    cursor: pointer;
+    color: #102a42;
+}
+.prev-btn:hover {
+    background: none;
+    color: #8bcbf9;
+}
+.next-btn:hover {
+    background: none;
+    color: #8bcbf9;
+  }
+.page-btn:hover {
+    background: #063251;
+    color: #fff;
+}
+
+.ant-table-row.ant-table-row-level-1 {
+    display:none;
+}
+@media only screen and (max-width:1200px) {
+    .ant-table-content {
+        overflow-x: scroll;
+    }
+}
+@media only screen and (max-width:425px) {
+    .ant-table-thead > tr > th {
+        font-size: 10px;
+    }
+}

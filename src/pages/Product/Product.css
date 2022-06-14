@@ -1,0 +1,9 @@
+.product__wrapper{
+    /* width: 100%; */
+    margin-left: 256px;
+}
+@media only screen and (max-width:600px) {
+    .product__wrapper{
+        margin-left: 0;
+    }
+}

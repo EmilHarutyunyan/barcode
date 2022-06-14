@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="da8acfb6-0318-4f14-a0a1-fb636f0c179a" name="barcode">
+        <fileTransfer rootFolder="/var/www" accessType="SFTP" host="192.52.243.93" port="22" sshConfigId="fbb06e09-63bf-4c3f-9cae-e0aaab5cc158" sshConfig="root@192.52.243.93:22 password">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

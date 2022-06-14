@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.71c5d350.chunk.css",
+    "main.js": "/static/js/main.3f3d6470.chunk.js",
+    "main.js.map": "/static/js/main.3f3d6470.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a3f29122.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a3f29122.js.map",
+    "static/css/2.0ce74623.chunk.css": "/static/css/2.0ce74623.chunk.css",
+    "static/js/2.d54b0e74.chunk.js": "/static/js/2.d54b0e74.chunk.js",
+    "static/js/2.d54b0e74.chunk.js.map": "/static/js/2.d54b0e74.chunk.js.map",
+    "static/js/3.757761d3.chunk.js": "/static/js/3.757761d3.chunk.js",
+    "static/js/3.757761d3.chunk.js.map": "/static/js/3.757761d3.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.0ce74623.chunk.css.map": "/static/css/2.0ce74623.chunk.css.map",
+    "static/css/main.71c5d350.chunk.css.map": "/static/css/main.71c5d350.chunk.css.map",
+    "static/js/2.d54b0e74.chunk.js.LICENSE.txt": "/static/js/2.d54b0e74.chunk.js.LICENSE.txt",
+    "static/media/Spin.25a330e1.svg": "/static/media/Spin.25a330e1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3f29122.js",
+    "static/css/2.0ce74623.chunk.css",
+    "static/js/2.d54b0e74.chunk.js",
+    "static/css/main.71c5d350.chunk.css",
+    "static/js/main.3f3d6470.chunk.js"
+  ]
+}

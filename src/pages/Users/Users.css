@@ -1,0 +1,106 @@
+.users__wrapper{
+    /* width: 100%; */
+    margin-left: 240px;
+    box-sizing: border-box;
+    padding: 100px 50px;
+}
+.users__wrapper .header_users {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.users__wrapper .header_users h2 {
+    width: fit-content;
+}
+.users__wrapper .header_users .add_user-btn {
+    box-sizing: border-box;
+    width: fit-content;
+    padding: 8px 14px;
+    background: #1478CE;
+    border-radius: 6px;
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 34px;
+    letter-spacing: 2.5px;
+    color: #FFFFFF;
+    outline: none;
+    cursor: pointer;
+    border: none;
+}
+.users__wrapper .header_users button:hover {
+    background: #2f54eb;
+}
+.users__wrapper .header_users h2 {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #003642;
+}
+.users_block{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.users_block .users {
+    border: 1px solid #B2D3DA;
+    box-sizing: border-box;
+    border-radius: 6px;
+    max-width: 315px;
+    width: 100%;
+    padding: 40px;
+    margin: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.users_block .users:hover{
+    border: 1px solid #2f54eb;
+}
+
+.users_block .users .icon_delete {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.users_block .users img {
+    max-width: 156px;
+    height: 156px;
+    display: block;
+    margin: 0 auto;
+}
+.users_block .users  h2 {
+    font-family: Montserrat, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+    color: #000000;
+    margin: 10px auto;
+    display: block;
+    width: fit-content;
+}
+.users_block .users  p {
+    font-family: Nunito, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #003642;
+}
+@media only screen and (max-width:600px) {
+    .users__wrapper{
+        margin-left: 0;
+    }
+
+}
